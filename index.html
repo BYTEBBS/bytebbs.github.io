@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8"> 
+		<title>BYTEBBS|字节论坛</title>
+		<style>
+			nav{
+				position: fixed;
+				background-color: rgba(0, 107, 255, 1);
+				width: 100%;
+				height: 50px;
+				display: flex;
+				text-align: center;
+			}
+			.nav-div{
+				width: 1000px;
+				height: 100%;
+				display: flex;
+				margin-left: 50%;
+			}
+			.nav-div-div{
+				width: 1000px;
+				height: 100%;
+				display: flex;
+				margin-left: -50%;
+			}
+			.nav-button{
+				width: 150px;
+				height: 100%;
+				text-align: center;
+				line-height: 50px;
+				margin: 0;
+				padding: 0;
+				border: none;
+				background-color: rgba(0, 107, 255, 1);
+				text-decoration: none;
+				color: white;
+			}
+			.nav-button:hover{
+				background-color: rgba(0, 91, 217, 1);
+			}
+			.nav-search-login{
+				height: 100%;
+				width: auto;
+				margin: 0;
+				margin-left: auto;
+				padding: 0;
+				border: none;
+				display: flex;
+			}
+			.nav-search{
+				width: 40px;
+				height: 40px;
+				text-align: center;
+				margin: 0;
+				margin: 5px;
+				border: none;
+				background:rgba(0, 107, 255, 1) url('images/search.svg') no-repeat right top;
+				text-decoration: none;
+				color: white;
+			}
+			.nav-search:hover{
+				background:rgba(0, 107, 255, 1) url('images/search_hover.svg') no-repeat right top;
+			}
+			.nav-login{
+				width: 50px;
+				height: 30px;
+				text-align: center;
+				line-height: 30px;
+				background-color: #ffffff;
+				color: rgba(0, 107, 255, 1);
+				border: none;
+				border-radius: 10px;
+				margin: 5px;
+				padding: 5px;
+				text-decoration: none;
+			}
+			.nav-login:hover{
+				background-color: #dddddd;
+			}
+			.nav-username{
+				width: 150px;
+				height: 100%;
+				text-align: center;
+				line-height: 50px;
+				margin: 0;
+				padding: 0;
+				border: none;
+				background-color: rgba(0, 107, 255, 1);
+				text-decoration: none;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<div class="nav-div">
+				<div class="nav-div-div">
+					<a class="nav-button" href="">我的世界官网</a>
+					<a class="nav-button" href="">我的世界维基</a>
+					<a class="nav-button" href="">Java服务器列表</a>
+					<a class="nav-button" href="">基岩服务器列表</a>
+					<div class="nav-search-login">
+						<a class="nav-search" href=""></a>
+						<a class="nav-login" href="">登录</a>
+						<a class="nav-username" id="nav-username" href="">您没有登录</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</body>
+</html>
